@@ -27,7 +27,7 @@ int main() {
         case 3:
             for (int i=5; i<=10; i++){
                 char c = i;
-                printf("%c ", c); cout<<"1";}
+                printf("%c ", c); cout<<" ";}
             break;
         case 4:
             for (int i=20; i<=30; i++){
@@ -45,6 +45,6 @@ int main() {
                 cout<<"\n";}
             break;
 
-        default: printf("Vvedite nomer 1-3");
+        default: printf("Vvedite nomer 1-5");
     }
 }
